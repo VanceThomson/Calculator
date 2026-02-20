@@ -56,15 +56,15 @@ function showProblem(n1, operator, n2) {
 document.getElementById("Problem").innerText =
   n1 + " " + operator + " " + n2;
 
-document.getElementById("answer:).value = "";
+document.getElementById("answer").value = "";
   document.getElementById("result").innerText = "";
 }
 
 function calculate(n1, n2 operator) {
 
   if (operator === "+") return n1 + n2;
-  if (operator === "_") return n1 _ n2;
-  if (operator === "x") return n1 x n2;
+  if (operator === "-") return n1 - n2;
+  if (operator === "*") return n1 * n2;
   if (operator === "/") return n1 / n2;
 }
 
