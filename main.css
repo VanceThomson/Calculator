@@ -1,0 +1,19 @@
+body {
+  background-color: #111
+  color: black;
+  text-align; center;
+  font-family: arial;
+  margin-top: 100px;
+
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px
+  cursor: pointer;
+}
